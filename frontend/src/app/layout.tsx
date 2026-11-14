@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter, Space_Grotesk } from 'next/font/google';
 import './globals.css';
 import { Toaster } from 'react-hot-toast';
@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: 'Qwest — Quizzes em Tempo Real',
   description: 'Plataforma gamificada de quizzes interativos ao vivo.',
   manifest: '/manifest.json',
+};
+
+export const viewport: Viewport = {
   themeColor: '#6657FF',
 };
 
